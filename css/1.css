@@ -1,0 +1,296 @@
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+   
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+   
+    
+}
+.prod>.name{
+    font-variant: small-caps;
+    color:orangered;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color:orange
+}
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod>.icons>img{
+    width: 25px;
+}
+.prod>.new-icon{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 30px;
+}
+
+.body{
+    float: left;
+}
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+  
+    background-size: 100% 100%;
+    
+    background: url("../image/logo2.jpg") no-repeat center center;
+   
+    position:relative;
+    height: 300px;
+    
+}   
+.container>nav{
+    line-height: 40px;
+    background-color:yellow;
+    color:white;
+
+}
+
+.container article{
+    min-height: 400px;
+    width:75%;
+    background-color:white;
+    float: left;
+ 
+}
+.container aside{
+    min-height: 800px;
+    width: 25%;
+    
+    float:right;
+}
+.container>footer{
+    
+    line-height: 50px;
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+    color: white;
+    clear: both;
+}
+.container>footer>h3{
+    color:black;
+}
+.container>nav>a{
+    color:black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+
+
+.top-right{
+    Position:absolute;
+    Top:0px;
+    Right:0px;
+    Border-bottom-left-radius: 30px;
+    background-color: rgb(0, 153, 255);
+    height: 30px;
+    box-shadow: 3px 3px 2px gray;
+    padding: 5px 10px 3px 10px;
+    
+    
+    
+}
+.top-right>a{
+    color: white;
+    text-decoration: none;
+    color: white;
+
+}
+.vmenu{
+    padding:0px;
+    margin:5px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0 0 2px p;
+}
+.vmenu a{
+    background: url("../image/bullet.png") no-repeat left center;
+    display: block;
+    border-bottom: 1px dotted rgb(0, 153, 255);
+    color: black;
+   
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+ 
+ }
+ .vmenu a:hover{
+     background: url("../image/bullet.png") no-repeat left center;
+ border-bottom: 1px dotted white;
+ background-color: rgb(0, 153, 255);
+ color: white;
+ font-weight: bold;
+}
+.menu>ul>li{
+    display: inline-block;
+    z-index: 1;
+
+
+}
+.menu>ul>li>a{
+    background-color: rgb(0, 153, 255);
+    height: 30px;
+    
+    padding: 8px 10px 3px 10px;
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-size: 0.5cm;
+
+    
+    
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+
+    border-radius: 3px;
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: white;
+
+
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color:white;
+    box-shadow: 0 0 1px gray;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: yellow;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+
+}
+.menu ul ul a:hover{
+    background-color: yellow;
+    color: white;
+}
+.container{
+    position: relative;
+}
+.company-info{
+    bottom: 5px;
+    top: 360px;
+    left:15px;
+    text-shadow: 0 0 10px orangered;
+    font-variant: small-caps;
+    height: 50px;
+    position: relative;
+    padding: 15px;
+    font-size: larger;
+    margin: 5px;
+}
+.company-info>h1{
+    color: white;
+    border-bottom: 3px dotted red;
+    width: 300px;
+}
+.company-info>h3{
+    color:orangered;
+    margin:0px;
+    padding: 0px;
+}
+
+.form-group{
+    font-size: large;
+    margin: 10px 0px;
+    
+}
+img{
+   padding-right: 10px;
+}
+.form-group{
+    margin: 10px 0px;
+
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+
+.form-control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.form-button:disabled{
+    color: darkgray;
+    box-shadow: inset0 0 20px 
+}
+
+
+ 
+
+ 
+
